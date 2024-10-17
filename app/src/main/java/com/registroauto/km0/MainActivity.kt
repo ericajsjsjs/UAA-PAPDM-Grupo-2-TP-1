@@ -319,7 +319,7 @@ fun AutoItem(auto: Auto, onDelete: () -> Unit) {
 
         Spacer(modifier = Modifier.height(4.dp))
 
-       
+
         Button(
             onClick = onDelete,
             modifier = Modifier.fillMaxWidth()
